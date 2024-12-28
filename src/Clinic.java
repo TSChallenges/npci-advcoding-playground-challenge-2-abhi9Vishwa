@@ -21,7 +21,7 @@ class Clinic {
     public void admitPatient(Patient patient) {
     patientQueue.add(patient);
     System.out.println("Patient " + patient.getName() + " admitted.");
-}
+    }
 
     
 
